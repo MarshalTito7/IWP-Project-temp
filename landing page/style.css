@@ -161,10 +161,34 @@ body {
     border-radius: 25px;
     padding: 12px 3.5rem;
     border: 1px solid #f8e7d5;
+    transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
+
+#showcase .buttons a:first-child:hover{
+    box-shadow: 4px 8px 10px #222222
+}
+
 #showcase .buttons a:last-child{
     background-color: #f8e7d5;
     color: #24191b;
     border-radius: 25px;
     padding: 12px 30px;
+    transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+#showcase .buttons a:last-child:hover{
+    box-shadow: 7px 12px 16px #222222
+}
+
+.anim-left {
+    margin-right: 5px;
+    transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+#collection:hover > .anim-left {
+    transform: translateX(-5px);
+    -webkit-transform: translateX(-5px);
+    -moz-transform: translateX(-5px);
+    -o-transform: translateX(-5px);
+    -ms-transform: translateX(-5px);
 }
