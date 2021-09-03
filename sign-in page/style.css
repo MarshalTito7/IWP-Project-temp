@@ -99,6 +99,9 @@ img{
   text-align: center;
   font-size: 50px;
   font-weight: 500;
+  font-family: GrenzeGotisch;
+  letter-spacing: 0.1rem;
+  text-shadow: 1px 5px 30px #221e09 ;
 }
 .right-text h5{
   display: block;
@@ -106,6 +109,7 @@ img{
   text-align: center;
   font-size: 19px;
   font-weight: 400;
+  font-family: Roboto;
 }
 
 .right .right-inductor{
@@ -123,5 +127,19 @@ img{
     margin-top: -3px;
 }
 
+@font-face {
+  font-family: GrenzeGotisch;
+  src: url(../fonts/GrenzeGotisch.ttf);
+}
 
+@font-face {
+  font-family: Roboto;
+  src: url(../fonts/Roboto-Light.ttf);
+  font-stretch: condensed;
+}
+
+@font-face {
+  font-family: Pacifico;
+  src: url(../fonts/Pacifico-Regular.ttf);
+}
 
