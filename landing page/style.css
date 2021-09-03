@@ -6,7 +6,7 @@
 
 
 body {
-     background: url(./backgroundPic.png) no-repeat center center/cover;
+     background: url(./backgroundPic.png) center center/cover;
      /* background-color: #cccccc; */
      background-size: 1500px 1100px;
      width: 100%;
