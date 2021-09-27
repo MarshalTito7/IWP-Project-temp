@@ -1,0 +1,24 @@
+{
+  "name": "iwp-project-temp",
+  "version": "1.0.0",
+  "description": "iwp-project-noreact",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarshalTito7/IWP-Project-temp.git"
+  },
+  "keywords": [
+    "tailwindcss",
+    "library",
+    "webapp"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarshalTito7/IWP-Project-temp/issues"
+  },
+  "homepage": "https://github.com/MarshalTito7/IWP-Project-temp#readme"
+}

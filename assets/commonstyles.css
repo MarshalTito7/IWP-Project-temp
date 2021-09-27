@@ -1,0 +1,137 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+  width: 10px; 
+}
+
+body::-webkit-scrollbar-track {
+  background: #333333; 
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #191919;
+}
+
+.topnav {
+  overflow: hidden;
+  background: rgba(29, 25, 25, 0.8);
+  display: flex;
+  justify-content: space-between;
+}
+
+.topnav .left-buttons {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 27%;
+}
+
+.topnav .right-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.topnav .left-buttons a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 1rem;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.topnav .left-buttons a:first-child {
+  font-size: large;
+  padding: 0.75rem 1rem;
+}
+
+.topnav .right-buttons a {
+  padding: 0.5rem 2.5rem;
+  margin: 0 0.4rem;
+  text-decoration: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.topnav a:hover {
+  background-color: #121212;
+}
+
+.topnav a.active {
+  color: white;
+  font-family: Pacifico;
+}
+
+.topnav a.peach {
+  color: #f8e7d5;
+}
+
+.topnav a.current {
+  background-color: #f8e7d5;
+  color: #24191b;
+}
+
+.topnav a.login {
+  color: #f8e7d5;
+  box-shadow: 0px 0px 0px 1px #f8e7d5;
+  border-radius: 10px;
+}
+
+.topnav a.signup {
+  background-color: #f8e7d5;
+  color: #24191b;
+  border-radius: 10px;
+}
+
+.topnav .nav-search-form {
+  display: flex;
+  flex-direction: row;
+  margin-right: 10px;
+}
+
+.topnav .nav-search-form button {
+  border: none;
+  background-color: rgb(15, 10, 10, 0.2);
+  padding: 5px 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  cursor: pointer;
+}
+
+.topnav .nav-search-form input[type=text] {
+  border: none;
+  background-color: rgb(15, 10, 10, 0.2);
+  padding: 10px;
+  color: white;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 200px;
+  transition: width 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.topnav .nav-search-form input[type=text]:focus {
+  width: 300px;
+}
+
+@font-face {
+  font-family: GrenzeGotisch;
+  src: url(../assets/fonts/GrenzeGotisch.ttf);
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(../assets/fonts/Roboto-Light.ttf);
+  font-stretch: condensed;
+}
+
+@font-face {
+  font-family: Pacifico;
+  src: url(../assets/fonts/Pacifico-Regular.ttf);
+}
