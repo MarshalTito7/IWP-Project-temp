@@ -18,7 +18,7 @@ h2 {
 .card {
     background-color: #3f3f3f;
     height: 400px;
-    width: 300px;
+    max-width: 300px;
     cursor: pointer;
     transition: all 0.4s cubic-bezier(0.445, 0.05, 0.55, 0.95)
 }
@@ -61,7 +61,7 @@ h2 {
 }
 
 .card .rating-comp .activedot {
-    background-color: #3980A8;
+    background-color: #3980a8;
 }
 
 .card .rating-comp .ratingnum {

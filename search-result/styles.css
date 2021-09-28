@@ -1,0 +1,26 @@
+@import url("../assets/commonstyles.css");
+@import url("../explore-page/style.css");
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100;200&display=swap');
+
+.header-h2 {
+    font-family: 'Grenze Gotisch';
+}
+
+.pagination-comp-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination-component nav ul li button{
+    background-color: #2b2b2b;
+}
+
+.pag-button:hover {
+    background-color: #3d3d3d;
+}
+
+.next-prev-btn {
+    border-color: #3d3d3d;
+}
