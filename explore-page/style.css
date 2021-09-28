@@ -23,6 +23,10 @@ h2 {
     transition: all 0.4s cubic-bezier(0.445, 0.05, 0.55, 0.95)
 }
 
+.card-fixed-width {
+    width: 300px;
+}
+
 .card:hover {
     transform: translateY(-18px);
 }
